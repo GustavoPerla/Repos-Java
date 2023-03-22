@@ -23,7 +23,7 @@ public class Ejercicio_2_A {
 		
 		for(int i = 0; i<frase.length();i++) {
 			if(opcion==1) {
-				Desplazamiento +=  (frase.charAt(i)-lugares);
+				Desplazamiento += (char) (frase.charAt(i)-lugares);
 			}else {
 				Desplazamiento += (char) (frase.charAt(i)+lugares);
 			}

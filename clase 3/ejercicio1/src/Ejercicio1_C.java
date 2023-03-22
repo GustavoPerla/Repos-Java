@@ -16,7 +16,6 @@ public class Ejercicio1_C {
 			}
 		}
 		System.out.println("la seuma de los numeros mayores que "+ x + " es: "+ suma);
-
 	}
 
 }
