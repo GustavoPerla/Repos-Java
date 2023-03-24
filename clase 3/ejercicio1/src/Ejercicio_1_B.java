@@ -23,6 +23,8 @@ public class Ejercicio_1_B {
 			}
 		}while(opcion != 1 && opcion!=2);
 		
+		leer.close();
+		
 		if(opcion==1) {
 			if(num1>num2) {
 				if(num2>num3) {
