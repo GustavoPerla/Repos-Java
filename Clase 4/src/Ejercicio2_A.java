@@ -13,7 +13,7 @@ public class Ejercicio2_A {
 			 resultado = multiplicacion(args[0]);
 		 }
 		
-		System.out.println("La operacion da" + resultado);
+		System.out.println("La operacion da: " + resultado);
 	}
 	
 	private static int suma(String url) throws IOException {
@@ -26,9 +26,13 @@ public class Ejercicio2_A {
 	
 	private static int multiplicacion(String url) throws IOException {
 		int producto=1;
+
+		
 		for(String num : Files.readAllLines(Paths.get(new File(url).getAbsolutePath()))) {
 			producto*=Integer.parseInt(num);
 		}
+		
+
 		return producto;
 	}
 }
