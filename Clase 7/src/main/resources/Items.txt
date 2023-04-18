@@ -1,0 +1,3 @@
+1,jabon en polvo,40
+3,Esponjas,10
+2,Chocolates,100
